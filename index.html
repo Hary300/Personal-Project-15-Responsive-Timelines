@@ -4,6 +4,99 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Timelines</title>
+    <link rel="stylesheet" href="/src/output.css" />
   </head>
-  <body></body>
+  <body class="flex flex-col gap-5 py-10 px-5 lg:py-30 lg:px-35 lg:gap-10">
+    <h1 class="text-center text-3xl font-bold">Timeline</h1>
+
+    <!-- timelien start -->
+    <div class="time-line relative flex flex-col gap-5">
+      <!-- item 1 -->
+      <div class="item relative flex items-center gap-5">
+        <div
+          class="absolute top-0 left-0 lg:left-1/2 lg:-translate-x-1/2 w-8 h-1/2 bg-white z-5"
+        ></div>
+        <div
+          class="number relative lg:absolute lg:left-1/2 lg:-translate-x-1/2 z-10 flex shrink-0 justify-center items-center w-8 bg-orange-500 aspect-square rounded-full text-white text-sm font-semibold"
+        >
+          1
+        </div>
+        <div
+          class="content p-2 rounded-lg border border-[#ddd] w-full lg:w-[47%]"
+        >
+          <h2 class="text-lg font-bold">Item 1</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
+            excepturi.
+          </p>
+        </div>
+      </div>
+
+      <!-- item 2 -->
+      <div class="item flex items-center gap-5">
+        <div
+          class="number relative z-10 lg:absolute lg:left-1/2 lg:-translate-x-1/2 flex shrink-0 justify-center items-center w-8 bg-orange-500 aspect-square rounded-full text-white text-sm font-semibold"
+        >
+          2
+        </div>
+        <div
+          class="content p-2 rounded-lg border border-[#ddd] w-full lg:w-[47%] lg:ml-auto"
+        >
+          <h2 class="text-lg font-bold">Item 2</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
+            omnis mollitia, velit dolore aliquam fuga.
+          </p>
+        </div>
+      </div>
+
+      <!-- item 3 -->
+      <div class="item relative flex items-center gap-5">
+        <div
+          class="number relative z-10 lg:absolute lg:left-1/2 lg:-translate-x-1/2 flex shrink-0 justify-center items-center w-8 bg-orange-500 aspect-square rounded-full text-white text-sm font-semibold"
+        >
+          3
+        </div>
+        <div
+          class="content p-2 rounded-lg border border-[#ddd] w-full lg:w-[47%]"
+        >
+          <h2 class="text-lg font-bold">Item 3</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+            non culpa, vel magni nisi tempora placeat ad eius quae possimus,
+            distinctio harum rem deleniti amet.
+          </p>
+        </div>
+      </div>
+
+      <!-- item 4 -->
+      <div class="item relative flex items-center gap-5">
+        <div
+          class="absolute bottom-0 left-0 lg:left-1/2 lg:-translate-x-1/2 w-8 h-1/2 bg-white z-5"
+        ></div>
+        <div
+          class="number relative z-10 lg:absolute lg:left-1/2 lg:-translate-x-1/2 flex shrink-0 justify-center items-center w-8 bg-orange-500 aspect-square rounded-full text-white text-sm font-semibold"
+        >
+          4
+        </div>
+        <div
+          class="content p-2 rounded-lg border border-[#ddd] w-full lg:w-[47%] lg:ml-auto"
+        >
+          <h2 class="text-lg font-bold">Item 4</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            molestias consequuntur blanditiis voluptatem nobis a quis
+            reiciendis.
+          </p>
+        </div>
+      </div>
+
+      <!-- line -->
+      <div
+        class="line w-0.5 absolute top-0 bottom-0 left-4 lg:left-1/2 bg-[#ddd]"
+      ></div>
+    </div>
+
+    <!-- timeline end -->
+  </body>
 </html>
